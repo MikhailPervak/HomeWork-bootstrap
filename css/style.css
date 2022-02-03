@@ -1,0 +1,104 @@
+/* использованы стили документации https://github.com/rtplv/airbnb-css-ru */
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-image: url(../img/bodybackground.jpg);
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #fff;
+    padding: 25px 0;
+}
+
+.headerlogo {
+    margin-right: 64px;
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #485466;
+}
+
+.nav a img {
+    margin-left: 6px;
+}
+
+.headerbuttons .button-login {
+    color: #4E92F9;
+    text-decoration: none;
+    margin-right: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.headerbuttons .button-singup {
+    font-size: 16px;
+    font-weight: 700;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 7px 20px rgba(49, 69, 255, 0.13);
+    background: -webkit-linear-gradient(#C381DB, #4E92F9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+.section {
+    height: 507px;
+}
+
+.left h2 {
+    background: -webkit-linear-gradient(#C381DB, #4E92F9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 51px;
+    margin-bottom: -3px;
+}
+
+.crafted {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.themewagon {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.left p {
+    margin: 13px 0 49px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A6980;
+}
+
+.leftbutton {
+    padding: 7px 16px;
+    background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+    border-radius: 8px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 7px 20px rgba(49, 69, 255, 0.13);
+}
+
+.right img {
+    width: 100%;
+}
+

@@ -1,0 +1,118 @@
+
+
+@media screen and (max-width: 1440px) {
+    /* правила */
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 8px 0;
+    }
+
+    .left h2 {
+        font-size: 40px;
+    }
+    
+    .crafted {
+        font-size: 32px;
+    }
+    
+    .themewagon {
+        font-size: 32px;
+    }
+    
+    .left p {
+        margin: 13px 0 30px 0;
+    }
+
+    .headerbuttons button {
+        padding: 0;
+    }
+}
+   
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 5px 0;
+    }
+
+    .left h2 {
+        font-size: 31px;
+    }
+    
+    .crafted {
+        font-size: 24px;
+    }
+    
+    .themewagon {
+        font-size: 24px;
+    }
+    
+    .left p {
+        margin: 5px 0 15px 0;
+    }
+
+    .leftbutton {
+        padding: 7px 10px;
+        border-radius: 6px;
+        font-size: 15px;
+    }
+
+    .headerbuttons .button-login {
+        font-size: 15px;
+        border-radius: 4px;
+        margin-right: 5px;
+    }
+
+    .headerbuttons .button-singup {
+        font-size: 15px;
+        border-radius: 4px;
+    }
+    
+    nav .nav-link {
+        padding: 0 4px;
+    }
+
+    .nav a img {
+        margin-left: -2px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .left_right_wrapper {
+        flex-direction: column-reverse;
+    }
+
+    div .section_left {
+        width: 100%;
+    }
+
+    div .section_right {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .left h2 {
+        font-size: 25px;
+    }
+    
+    .crafted {
+        font-size: 18px;
+    }
+    
+    .themewagon {
+        font-size: 18px;
+    }
+    
+    .left p {
+        margin: 5px 0 10px 0;
+        font-size: 14px;
+    }
+
+    .leftbutton {
+        padding: 5px 8px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+}
